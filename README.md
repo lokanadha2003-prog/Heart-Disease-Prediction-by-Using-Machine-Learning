@@ -41,38 +41,6 @@ streamlit run app.py
 ```
 The browser will open automatically at: `http://localhost:8501`
 
----
-
-## ☁️ HOW TO DEPLOY ON STREAMLIT CLOUD (Free)
-
-### Step 1 — Push to GitHub
-1. Create a new repository on [github.com](https://github.com)
-2. Upload these files to the repo:
-   - `app.py`
-   - `requirements.txt`
-   - `best_model.pkl` *(run the dissertation script locally first)*
-   - `scaler.pkl`
-   - `feature_names.pkl`
-   - `cardio_train.csv` *(optional — only needed if you want cloud retraining)*
-
-### Step 2 — Deploy on Streamlit Cloud
-1. Go to [share.streamlit.io](https://share.streamlit.io)
-2. Sign in with your GitHub account
-3. Click **"New app"**
-4. Select your repository and set:
-   - **Branch**: `main`
-   - **Main file path**: `app.py`
-5. Click **"Deploy"**
-
-Your app will be live at:
-`https://<your-username>-<repo-name>.streamlit.app`
-
-### ⚠️ Important Note on Model Files
-The `.pkl` files are binary and can be large. If GitHub rejects them (>100MB):
-- Use [Git LFS](https://git-lfs.github.com/) for large files
-- Or store models on Google Drive and load them via URL in `app.py`
-
----
 
 ## 📊 Output Plots Generated
 
