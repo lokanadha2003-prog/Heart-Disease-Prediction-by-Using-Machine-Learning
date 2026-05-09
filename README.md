@@ -1,6 +1,6 @@
-# ❤️ Heart Disease Prediction — MSc Dissertation Project
+# Heart Disease Prediction — MSc Dissertation Project
 
-## 📁 Project Files
+## Project Files
 
 | File | Description |
 |------|-------------|
@@ -14,7 +14,7 @@
 
 ---
 
-## 🚀 HOW TO RUN LOCALLY (VS Code)
+## HOW TO RUN LOCALLY (VS Code)
 
 ### Step 1 — Install Dependencies
 Open a terminal in VS Code and run:
@@ -63,7 +63,7 @@ The browser will open automatically at: `http://localhost:8501`
 
 ---
 
-## 📖 Dataset Column Reference
+## Dataset Column Reference
 
 | Column | Description | Type |
 |--------|-------------|------|
